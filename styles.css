@@ -30,7 +30,7 @@ section > div {
   display: flex;
 }
 section > .container {
-  height: 30vh;
+  /* height: 30vh; */
 }
 
 /* Header and footer */
@@ -88,3 +88,41 @@ section:first-child > .container > img {
   background-color: grey;
   text-align: center;
 }
+
+/* The second section */
+section:nth-child(2) {
+  padding: 20px 0 100px;
+}
+
+section:nth-child(2) > .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.container2 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 190px;
+  margin: 30px;
+}
+
+.container2 > div > img {
+  width: 190px;
+  height: 220px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+}
+
+/* The third section */

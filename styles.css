@@ -10,6 +10,10 @@ body {
 .container {
   display: flex;
 }
+/* 
+section {
+  display: flex;
+} */
 
 /* Header and footer */
 .header,
@@ -35,7 +39,14 @@ header > div > nav > a {
   font-size: 18px;
   color: #e5e7eb;
   text-decoration: none;
-  padding: 20px;
+  padding: 20px 0 20px 20px;
 }
 
 /* The first section */
+
+section:first-child > .container {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}

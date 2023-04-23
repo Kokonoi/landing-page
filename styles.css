@@ -18,7 +18,7 @@ button {
   height: 32px;
   background-color: #3882f6;
   color: white;
-  border: 2px white;
+  border: 2px solid white;
   border-radius: 8px;
 }
 
@@ -28,9 +28,6 @@ section > div {
 }
 .container {
   display: flex;
-}
-section > .container {
-  /* height: 30vh; */
 }
 
 /* Header and footer */
@@ -43,7 +40,13 @@ section > .container {
 
 .footer {
   color: #f9faf8;
+  height: 76px;
 }
+
+.footer > p {
+  margin: auto;
+}
+
 .header > .container {
   display: flex;
   justify-content: space-between;
@@ -114,6 +117,8 @@ section:nth-child(2) > .container {
   align-items: center;
   width: 190px;
   margin: 30px;
+  color: #1f2937;
+  text-align: center;
 }
 
 .container2 > div > img {
@@ -152,3 +157,26 @@ section:nth-child(3) > .container > strong {
 }
 
 /* The fourth section */
+section:nth-child(4) {
+  margin: 100px;
+}
+
+section:nth-child(4) > .container {
+  background-color: #3882f6;
+  color: #fff;
+  height: 150px;
+  width: 70vw;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+section:nth-child(4) > .container > div {
+  width: 50vw;
+  flex-direction: column;
+}
+
+section:nth-child(4) > .container > div > p {
+  margin: 0;
+}

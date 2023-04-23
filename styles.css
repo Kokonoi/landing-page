@@ -7,6 +7,9 @@ body {
   flex-direction: column;
   margin: 0;
 }
+.container {
+  display: flex;
+}
 
 /* Header and footer */
 .header,
@@ -16,8 +19,7 @@ body {
   align-items: center;
   background-color: #1f2937;
 }
-
-.container {
+.header > .container {
   display: flex;
   justify-content: space-between;
   align-items: center;

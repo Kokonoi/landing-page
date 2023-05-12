@@ -21,7 +21,7 @@ css
 ├── index.html
 ├── styles.css
 └── img/
-    <span style="margin-left:2px">└── (place your images here)</span>
+   └── (place your images here)
 </code>
 
 <h3>Contributing</h3>

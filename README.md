@@ -21,5 +21,8 @@ css
 ├── index.html
 ├── styles.css
 └── img/
-└── (place your images here)
+    <span style="margin-left: 10px">└── (place your images here)</span>
 </code>
+
+<h3>Contributing</h3>
+Contributions are welcome! If you find a bug or have a feature request, please open an issue. If you would like to contribute code, please fork the repository and create a pull request.
